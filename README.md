@@ -13,7 +13,7 @@ It generates proof of paypal payment (example: You've sent 90.00 USD to destrotn
 
 2. Fill in the form
 
-* <img src="https://github.com/DesTroTN/PaypalProofGenerator/blob/main/sc/1.PNG" border="0"></a>
+* <img src="https://github.com/DesTroTN/PaypalProofGenerator/blob/main/sc/2.PNG" border="0"></a>
 
 You're done! All simple, easy
 
