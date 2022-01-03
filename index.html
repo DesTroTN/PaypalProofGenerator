@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Fаke РayРal Generator</title>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+	<meta name="description" content="By DesTroTN">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+    
+</head>
+  
+<style>
+    table{
+    
+    position: absolute;
+    left: 30%;
+	top:40%;
+    * {
+        font-family: 'Lato';
+        font-size: 18px;
+        outline: none;
+        outline-color: white;
+        overflow: hidden auto;
+    }
+	 }
+    
+    html,body {
+	background-image: url("https://www.teahub.io/photos/full/37-378593_sunset-sky-photos-high-resolution-sunset-sky-background.jpg");
+	height: 100%;
+        width: 100%;
+        height: 100%;
+    }
+    
+    img {
+
+   position: absolute;
+   left: 500px;
+   bottom:421px;
+	width: 6%;
+	}
+	
+   p {
+position: absolute;
+left: 40%;
+top:28%;
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 22px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: italic;
+font-variant: small-caps;
+text-transform: capitalize;
+    }
+</style>
+
+<body>
+   <img src="https://image.flaticon.com/icons/png/512/61/61513.png" alt="paypal Wallpaper">
+   <p>Fаke РayРal Generator</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<table border="0" cellpadding="10" cellspacing="1" width="50%">
+   <tr>
+     <td style="height:50px" > <input type="text" id="price" required class="form-control " placeholder="00.00"></td>
+     <td width="100"> <select class="form-control " id="category">
+                    <option value="eur">EUR</option>
+                    <option value="usd">USD</option>
+                    <option value="gpb">GPB</option>
+                  </select></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td><input type="email" id="email" required class="form-control " placeholder="example@service.com"></td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+     <td align="center"> <button type="button" onclick="paypalProofGen()" class="btn btn-primary">Generate</button></td>
+   </tr>
+</table>
+</html>
