@@ -20,6 +20,7 @@ You're done! All simple, easy
 ## Credits :
 ```
 This Script is free to distribute, modify and use with the condition that credit is provided to the creator (@DesTroTN) and is not for commercial use.
-Github : <a href='#'>HERE</a>
-Zone-h : <a href='#'>HERE</a>
+Github : DesTroTN
+Zone-h : DesTroTN
+Facebook : DesTroTN
 ```
